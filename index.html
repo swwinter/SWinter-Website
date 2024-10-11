@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scott Winter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Scott Winter</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Scott Winter</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/headshot.png" alt="Scott Winter profile picture" class="headshot">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Scott Winter</h1>
+            <p class="section__text__p2">Man of many talents!</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Scott Winter Resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon LinkedIn-icon" onclick="location.href='https://www.linkedin.com/in/scottwwinter/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                         src="./assets/about-me.png"
+                         alt="Experience icon"
+                         class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>Call Center Management <br>
+                        Process Improvement & Quality Specialist</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                         src="./assets/education-icon.png" 
+                         alt="Education icon"
+                         class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Bachelors Degree - Business Administration
+                        </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>This is where I will put all of the text about me. Maybe, favorite sport,
+                        talk about passion for skiing and the outdoors.
+                        I could possibly talk about family if I wanted to make that info public or is this
+                        where I should put my professional highlights?</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container-certification">
+                    <h2 class="experience-sub-title">Certifications</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/certification-icon.png" 
+                                 alt="Certification Icon"
+                                 class="icon">
+                                <div>
+                                    <h3>ITIL Foundation v4</h3>
+                                </div> 
+                        </article>
+                        <article>
+                            <img src="./assets/certification-icon.png" 
+                                 alt="Achievement Icon"
+                                 class="icon">
+                                <div>
+                                    <h3>HID - Service Desk Manager</h3>
+                                </div> 
+                        </article>
+                        <article>
+                            <img src="./assets/certification-icon.png" 
+                                 alt="Achievement Icon"
+                                 class="icon">
+                                <div>
+                                    <h3>NICE CXone Administrator</h3>
+                                </div> 
+                        </article>        
+                    </div>
+                </div>
+                <div class="details-container-achievements">
+                    <h2 class="experience-sub-title">Achievements & Highlights</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/achievement-icon.png" 
+                                 alt="Achievement Icon"
+                                 class="icon">
+                                <div>
+                                    <p>Coached, developed, and mentored 
+                                        customer service supervisors, 45 
+                                        customer service representatives and 
+                                        5-8 operational staff to exceed contractual 
+                                        SLAs and continuously receive exceptional 
+                                        Contractor Performance Assessment Reporting (CPAR) 
+                                        ratings</p>
+                                </div> 
+                        </article>
+                        <article>
+                            <img src="./assets/achievement-icon.png" 
+                                 alt="Achievement Icon"
+                                 class="icon">
+                                <div>
+                                    <p>Develop, implement and manage quality auditing program 
+                                        that included consistent monitoring and feedback to drive 
+                                        satisfaction scores that averaged between 4.15 – 4.8 on a 5.0 
+                                        scale</p>
+                                </div> 
+                        </article>
+                        <article>
+                            <img src="./assets/achievement-icon.png" 
+                                 alt="Achievement Icon"
+                                 class="icon">
+                                <div>
+                                    <p>Improved IVR call routing and messaging to provide key information 
+                                        to callers and reduce call volume to agents by over 10%</p>
+                                </div> 
+                        </article>
+                        <article>
+                            <img src="./assets/achievement-icon.png" 
+                                 alt="Achievement Icon"
+                                 class="icon">
+                                <div>
+                                    <p>Created a CMMI Level 4 predictability model that forecasted the 
+                                        Average Speed of Answer within 10 seconds or less, with 75% 
+                                        accuracy depending on call volume variation</p>
+                                </div> 
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch!</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email-icon.png" 
+                     lt="Email Icon" 
+                     class="icon contact-icon">
+                <p><a href="mailto:winter.scott@ymail.com">winter.scott@ymail.com</a></p>     
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" 
+                     lt="LinkedIn Icon" 
+                     class="icon LinkedIn-icon">
+                <p><a href="https://www.linkedin.com/in/scottwwinter/">LinkedIn</a></p>     
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Scott Winter. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
