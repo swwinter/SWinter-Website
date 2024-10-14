@@ -313,6 +313,9 @@ section {
     width: 400px;
     margin: auto 0;
 }
+.text-container {
+    margin-bottom: 1rem;
+}
 
 /* EXPERIENCE */
 
