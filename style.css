@@ -435,8 +435,28 @@ footer p {
     position: relative;
 }
 
+.projects-sub-title {
+    margin-bottom: 1rem;
+}
+
+.presentation-container {
+    align-items: center;
+}
+
 .project-presentation-text {
-    text-align: left;
+    text-align: center;
+    text-justify: left;
     line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-used {
+    width: 100%;
     margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding-left: 10%;
+}
+
+.projects-container {
+    gap: 2rem;
 }

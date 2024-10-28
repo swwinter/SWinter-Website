@@ -30,15 +30,17 @@
     }
     section, .section-container {
         height: fit-content;
+        align-items: center;
     }
     section {
         margin: 0 5%;
     }
     .section__pic-container {
-        width: 275px;
+        width: 225px;
         height: 275px;
-        margin: 0 auto 2rem;
+        margin: auto 2rem;
     }
+
     .about-containers {
         margin-top: 0;
     }
@@ -94,4 +96,4 @@
     .text-container {
         text-align: justify;
     }
-}
+} 
