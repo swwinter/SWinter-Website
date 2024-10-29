@@ -449,14 +449,17 @@ footer p {
     line-height: 1rem;
     margin-bottom: 0.5rem;
 }
-
-.skills-used {
-    width: 100%;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    padding-left: 10%;
-}
-
 .projects-container {
     gap: 2rem;
+}
+
+.skills-details {
+    width: auto ;
+    text-align: center;
+    margin: auto;
+}
+
+.skills-used {
+    display: flex;
+    margin-bottom: 2rem;
 }
