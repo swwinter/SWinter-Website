@@ -453,6 +453,10 @@ footer p {
     gap: 2rem;
 }
 
+.disclaimer {
+    font-size: .75rem;
+    margin-top: .5rem;
+}
 .skills-details {
     width: auto ;
     text-align: center;
