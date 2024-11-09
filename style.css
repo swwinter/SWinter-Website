@@ -491,6 +491,7 @@ footer p {
     margin: auto;
     color: white;
     gap: 1rem;
+    flex-direction: column;
 }
 
 #setup {
@@ -510,6 +511,7 @@ footer p {
     padding: 1rem;
     width: 15rem;
     border-radius: 2rem;
+    align-self: center;
 }
 
 .joke-text-container {
