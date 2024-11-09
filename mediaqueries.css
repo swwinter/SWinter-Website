@@ -101,4 +101,7 @@
     .text-container {
         text-align: justify;
     }
+    .joke-container {
+        width: 90%;
+    }
 } 
