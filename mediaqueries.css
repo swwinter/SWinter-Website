@@ -104,4 +104,7 @@
     .joke-container {
         width: 90%;
     }
+    .joke-btn {
+        color: black;
+    }
 } 
