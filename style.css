@@ -467,3 +467,52 @@ footer p {
     display: flex;
     margin-bottom: 2rem;
 }
+
+/* Joke Generator */
+
+.api-container {
+    align-items: center;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.joke-container {
+    padding: 1rem;
+    flex: 1;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    line-height: 2rem;
+    width: 60%;
+    margin: auto;
+    color: white;
+    gap: 1rem;
+}
+
+#setup {
+    color: white;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+#delivery {
+    color: white;
+    line-height: 1rem;
+}
+
+#joke-btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+.joke-text-container {
+    color: white;
+}
