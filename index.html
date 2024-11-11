@@ -198,6 +198,48 @@
         <p class="section__text__p1">Check out Examples of My</p>
         <h1 class="title">Work and Projects</h1>
         <div class="experience-details-container projects-container">
+            <div class="details-container api-container">
+                <h2 class="projects-sub-title">Joke Generator</h2>
+                <h3>Background</h3>
+                <div class="text-container project-api-text">
+                    <p>This a joke generator I created that will pull a random joke using an API. Check it out for a laugh!
+                    </p>
+                </div>
+                <h3>Skills Demonstrated</h3>
+                <div class="article-container skills-used">
+                    <article class="skills-details">
+                        <img src="./assets/web-development-icon.png" 
+                                 alt="Skills Icon"
+                                 class="icon">
+                                <div>
+                                    <p>Web Development</p>
+                                </div> 
+                    </article>
+                    <article class="skills-details">
+                        <img src="./assets/API-icon.png" 
+                                 alt="Skills Icon"
+                                 class="icon">
+                                <div>
+                                    <p>API Integration</p>
+                                </div> 
+                    </article>
+                    <article class="skills-details">
+                        <img src="./assets/coding-icon.png" 
+                                 alt="Skills Icon"
+                                 class="icon">
+                                <div>
+                                    <p>HTML, CSS, JavaScript</p>
+                                </div> 
+                    </article>
+                    </div>
+                <div class="article-container joke-container">                   
+                    <div class="joke-text-container">
+                        <p id="setup">Click the button below to start laughing!</p>
+                        <p id="delivery" class="hidden">Delivery Text</p>
+                    </div>
+                    <button id="joke-btn" onclick="runFunction()">Click here for a joke</button>
+                </div>
+            </div>
             <div class="details-container presentation-container">
                 <h2 class="projects-sub-title">Quality Assurance & Process Improvement</h2>
                 <h3>Background</h3>
@@ -309,40 +351,7 @@
                     <iframe title="Call Statistics Demo" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiNjZkYTY4NjYtNTcwOC00YjhkLTlhNmItY2ViM2QxNGQ1OWJhIiwidCI6IjY2ZTRmZDdmLWQ2MDYtNDExNC04ZTYzLTRjZDkyZjU1OGFmZCJ9" frameborder="0" allowFullScreen="true"></iframe>
                 </div>
             </div>
-            <div class="details-container api-container">
-                <h2 class="projects-sub-title">Joke Generator</h2>
-                <h3>Background</h3>
-                <div class="text-container project-api-text">
-                    <p>This a joke generator I created that will pull a random joke using an API. Check it out for a laugh!
-                    </p>
-                </div>
-                <h3>Skills Demonstrated</h3>
-                <div class="article-container skills-used">
-                    <article class="skills-details">
-                        <img src="./assets/API-icon.png" 
-                                 alt="Skills Icon"
-                                 class="icon">
-                                <div>
-                                    <p>Fetch API</p>
-                                </div> 
-                    </article>
-                    <article class="skills-details">
-                        <img src="./assets/coding-icon.png" 
-                                 alt="Skills Icon"
-                                 class="icon">
-                                <div>
-                                    <p>HTML, CSS, JavaScript</p>
-                                </div> 
-                    </article>
-                    </div>
-                <div class="article-container joke-container">                   
-                    <div class="joke-text-container">
-                        <p id="setup">Click the button below to start laughing!.</p>
-                        <p id="delivery" class="hidden">Delivery Text</p>
-                    </div>
-                    <button id="joke-btn" onclick="runFunction()">Click here for a joke</button>
-                </div>
-            </div>
+            
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
         onclick="location.href='./#contact'">
